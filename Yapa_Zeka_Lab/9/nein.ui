@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRenkler">
+    <property name="title">
+     <string>Renkler</string>
+    </property>
+    <addaction name="action_blue"/>
+    <addaction name="separator"/>
+    <addaction name="action_red"/>
+    <addaction name="action_green"/>
+   </widget>
+   <addaction name="menuRenkler"/>
+  </widget>
+  <action name="action_blue">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/logos/icons/blue.png</normaloff>:/logos/icons/blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mavi</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+B</string>
+   </property>
+  </action>
+  <action name="action_red">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/logos/icons/red.jpg</normaloff>:/logos/icons/red.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Kırmızı</string>
+   </property>
+  </action>
+  <action name="action_green">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/logos/icons/green.png</normaloff>:/logos/icons/green.png</iconset>
+   </property>
+   <property name="text">
+    <string>Yeşil</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+G</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

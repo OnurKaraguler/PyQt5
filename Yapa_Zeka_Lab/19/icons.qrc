@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/about_qt.jpg</file>
+    <file>icons/critical.jpg</file>
+    <file>icons/information.jpg</file>
+    <file>icons/numbers.jpg</file>
+    <file>icons/Onur_Karaguler.png</file>
+    <file>icons/question.jpg</file>
+    <file>icons/warning.jpg</file>
+  </qresource>
+</RCC>

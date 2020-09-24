@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/Onur_Karaguler.png</file>
+    <file>icons/1.png</file>
+    <file>icons/2.png</file>
+    <file>icons/3.png</file>
+    <file>icons/4.png</file>
+    <file>icons/5.png</file>
+    <file>icons/6.png</file>
+    <file>icons/7.png</file>
+  </qresource>
+</RCC>
